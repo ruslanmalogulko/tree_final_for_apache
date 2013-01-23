@@ -1,0 +1,235 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Use jsTree</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+        <script src="/resources/demos/external/jquery.bgiframe-2.1.2.js"></script>
+        <!-- <link rel="stylesheet" href="/resources/demos/style.css" /> -->
+        <script src="{{ STATIC_URL }}_lib/jquery.js">
+        </script>
+        <script src="{{ STATIC_URL }}jquery.jstree.js">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+          <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+          <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+          <link rel="stylesheet" href="/resources/demos/style.css" />
+        </script>
+        <style type="text/css">
+         /*.jstree li > a > .jstree-icon {  display:none !important; } */
+         #treeViewDiv {height:600px; width:45%; overflow:auto; position: absolute; border-radius: 10px;}
+         #item {height:600px;width:45%; overflow: auto; background: #ffffee; }
+         #header {text-align: center}
+         #item {float:right; border-radius: 10px; position:absolute; right:20px;}
+
+        #feedback { font-size: 1.0em; }
+        #selectable .ui-selecting { background: #FECA40; }
+        #selectable .ui-selected { background: #F39814; color: white; }
+        #selectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+        #selectable li { margin: 3px; padding: 0.4em; font-size: 0.8em; height: 12px; }
+
+        #feedback1 { font-size: 1.0em; }
+        #selectable1 .ui-selecting { background: #FECA40; }
+        #selectable1 .ui-selected { background: #F39814; color: white; }
+        #selectable1 { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+        #selectable1 li { margin: 3px; padding: 0.4em; font-size: 0.8em; height: 12px; }
+
+        #button1 {float:right; position:absolute; top:630px; right: 20px; width:45%;}
+
+        #dialog-confirm {height:600px; width:500px;}
+        </style>
+        
+        <script>
+            
+            $(document).ready(function(){
+
+                $(function () {
+                    document.getElementById('header').innerHTML = 'Hello world'
+                });
+
+                $(function () {
+
+                    $("#treeViewDiv").jstree({ 
+                        "xml_data" : {
+                            "ajax" : {
+                                "url" : "http://127.0.0.1:8000/xml-test/"
+                                },
+                                // "data" : function(n) {
+                                //     return {
+                                //         url : 'http://127.0.0.1:8000/html/'
+                                //     };
+                                // }
+                            "xsl" : "nest",
+                            "progressive_render" : true
+
+                        },
+
+                        "types" : {
+                            // I set both options to -2, as I do not need depth and children count checking
+                            // Those two checks may slow jstree a lot, so use only when needed
+                            // "max_depth" : -2,
+                            // "max_children" : -2,
+                            // I want only `drive` nodes to be root nodes 
+                            // This will prevent moving or creating any other type as a root node
+                            // "valid_children" : [ "drive" ],
+                            "types" : {
+                                // The default type
+                                "default" : {
+                                    // I want this type to have no children (so only leaf nodes)
+                                    // In my case - those are files
+                                    "valid_children" : "none",
+                                    "icon" : {
+                                        "image" : "{{ STATIC_URL }}file.png"
+                                    },
+                                    // If we specify an icon for the default type it WILL OVERRIDE the theme icons
+                                    // "icon" : {
+                                    //     "image" : "/static/v.1.0pre/_demo/file.png"
+                                    // }
+                                },
+                                // The `folder` type
+                                "folder" : {
+                                    // can have files and other folders inside of it, but NOT `drive` nodes
+                                    "valid_children" : [ "default", "folder" ],
+                                    "icon" : {
+                                        "image" : "{{ STATIC_URL }}folder.png"
+                                    }
+                                },
+                                // The `drive` nodes 
+                                "file" : {
+                                    // can have files and folders inside, but NOT other `drive` nodes
+                                    // "valid_children" : [ "default", "folder" ],
+                                    "icon" : {
+                                        "image" : "{{ STATIC_URL }}file.png"
+                                    },
+                                    // those prevent the functions with the same name to be used on `drive` nodes
+                                    // internally the `before` event is used
+                                    "start_drag" : false,
+                                    "move_node" : false,
+                                    "delete_node" : false,
+                                    "remove" : false
+                                }
+                            }
+                        },
+ 
+                        // "types" : {"default" : {"icon" : {"image" : "{{ STATIC_URL }}folder.png"}, 'valid_children' : 'default'}},
+                        // "core" : {"animation" : 0},
+                        "plugins" : [ "themes", "xml_data", "ui", "contextmenu", "crrm", "types" ],
+                        // "themes" : {"theme" : "apple"}
+
+                    })
+                    .bind("select_node.jstree", function (event, data) {
+                        // `data.rslt.obj` is the jquery extended node that was clicke
+                            $.post("/tree/childs/", {id:data.rslt.obj.attr("id")});
+                            $.ajax({ 
+                                url: "/tree/childs/",  
+                                cache: false,  
+                                success: function(html){  
+                                    $("#selectable1").html(html);
+                                }  
+                            });
+                        })
+
+                    .delegate("a", "click", function (event, data) {event.preventDefault(); })
+
+                });
+
+
+            });
+        </script>
+        <script>
+        $(function() {
+        $( "input[type=submit], a, button" )
+              .button()
+              .click(function( event ) {
+                event.preventDefault();
+                
+                location.replace('http://127.0.0.1:8000/post');
+              });
+          });
+          $(function() {
+            $( "#selectable" ).selectable({
+              stop: function() {
+                var result = $( "#select-result" ).empty();
+                $( ".ui-selected", this ).each(function() {
+                  var index = $( "#selectable li" ).index( this );
+                  result.append( " #" + ( index + 1 ) );
+                });
+              }
+            });
+          });
+          $(function() {
+            $( "#selectable1" ).selectable({
+              stop: function() {
+                $.post("/post/", {id:$(".ui-selected", this).attr('id')});
+                var result = $( "#select-result1" ).empty();
+                $( ".ui-selected", this ).each(function() {
+                  var index = $( "#selectable1 li" ).index( this );
+                  result.append( " #" + ( index + 1 ) );
+                });
+              }
+            });
+          });
+          // var button1 = document.getElementById("button1");
+          // button1.onclick = function() {
+            
+          // }
+        </script>
+        
+    </head>
+    <body>
+        
+        <div id="header"><h3>Javascript tree</h3></div>
+        <div id= "backups"></div>
+                  
+        <!-- <img src="{{ STATIC_URL }}drive.png" alt="The peaks of High Tatras" width="96" height="72" /> -->
+        
+            
+           
+            <div id="treeViewDiv">
+            </div>
+            
+            
+             <div id="item">
+                <p id="feedback1">
+                    <span>You've selected:</span> <span id="select-result1">none</span>.
+                </p>
+         
+                <ol id="selectable1">
+                    <!-- <div id="ol-insertion">
+
+                    </div> -->
+                  <!-- <li class="ui-widget-content">Item 1</li>
+                  <li class="ui-widget-content">Item 2</li>
+                  <li class="ui-widget-content">Item 3</li>
+                  <li class="ui-widget-content">Item 4</li>
+                  <li class="ui-widget-content">Item 5</li>
+                  <li class="ui-widget-content">Item 6</li> -->
+                </ol>
+
+            </div>
+            <input id="button1" type="submit" value="Get file" />
+       
+        <!-- style="display:none" -->
+        <div id="dialog-confirm" title="Select item to load:" style="display:none">
+           <p id="feedback">
+            <span>You've selected:</span> <span id="select-result">none</span>.
+        </p>
+         
+        <ol id="selectable" position="hide">
+            <!-- <div id="ol-insertion">
+
+            </div> -->
+          <!-- <li class="ui-widget-content">Item 1</li>
+          <li class="ui-widget-content">Item 2</li>
+          <li class="ui-widget-content">Item 3</li>
+          <li class="ui-widget-content">Item 4</li>
+          <li class="ui-widget-content">Item 5</li>
+          <li class="ui-widget-content">Item 6</li> -->
+        </ol>
+        </div>
+         
+         
+    </body>
+</html>

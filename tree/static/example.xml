@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="bk101" isbn="1413003907">
+      <author id="a01">Gambardella, Matthew</author>
+      <title>XML Developer's Guide</title>
+      <genre>Computer</genre>
+      <price ctype="usd">44.95</price>
+      <publish_date>2000-10-01</publish_date>
+   </book>
+   <book id="bk102" isbn="1413003908">
+      <author id="a02">Ralls, Kim</author>
+      <title>Midnight Rain</title>
+      <genre>Fantasy</genre>
+      <price ctype="usd">5.95</price>
+      <publish_date>2000-12-16</publish_date>
+   </book>
+   <book id="bk103" isbn="1413003909">
+      <author id="a03">Corets, Eva</author>
+      <title>Maeve Ascendant</title>
+      <genre>Fantasy</genre>
+      <price ctype="usd">5.95</price>
+      <publish_date>2000-11-17</publish_date>
+   </book>
+   <book id="bk104" isbn="1413003910">
+      <author id="a04">Corets, Eva</author>
+      <title>Oberon's Legacy</title>
+      <genre>Fantasy</genre>
+      <price ctype="usd">5.95</price>
+      <publish_date>2001-03-10</publish_date>
+   </book>
+   <book id="bk105" isbn="1413003911">
+      <author id="a05">Corets, Eva</author>
+      <title>The Sundered Grail</title>
+      <genre>Fantasy</genre>
+      <price ctype="usd">5.95</price>
+      <publish_date>2001-09-10</publish_date>
+   </book>
+   <book id="bk106" isbn="1413003912">
+      <author id="a06">Randall, Cynthia</author>
+      <title>Lover Birds</title>
+      <genre>Romance</genre>
+      <price ctype="usd">4.95</price>
+      <publish_date>2000-09-02</publish_date>
+   </book>
+</catalog>

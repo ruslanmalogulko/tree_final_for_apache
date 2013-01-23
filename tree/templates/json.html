@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>Use jsTree</title>
+        <script src="{{ STATIC_URL }}_lib/jquery.js">
+        </script>
+        <script src="{{ STATIC_URL }}jquery.jstree.js">
+        </script>
+        <style type="text/css">
+         /*.jstree li > a > .jstree-icon {  display:none !important; } */
+         #demo1 {height:300px; width:300px;}
+        </style>
+        <script>
+            $(document).ready(function(){
+                $(function () {
+                    // $("#demo1").jstree({ 
+                    //     "xml_data" : {
+                    //         "data" : '<root><item rel="file" id="tree" parent_id="0"><content><name>tree</name></content></item><item id="templates" parent_id="tree"><content><name>templates</name></content></item><item id="static" parent_id="tree"><content><name>static</name></content></item><item id="_docs" parent_id="static"><content><name>_docs</name></content></item><item id="syntax" parent_id="_docs"><content><name>syntax</name></content></item><item id="themes" parent_id="static"><content><name>themes</name></content></item><item id="classic" parent_id="themes"><content><name>classic</name></content></item><item id="default-rtl" parent_id="themes"><content><name>default-rtl</name></content></item><item id="apple" parent_id="themes"><content><name>apple</name></content></item><item id="default" parent_id="themes"><content><name>default</name></content></item><item id="_lib" parent_id="static"><content><name>_lib</name></content></item><item id="_demo" parent_id="static"><content><name>_demo</name></content></item><item id="_inc" parent_id="_demo"><content><name>_inc</name></content></item></root>',
+                    //         // "ajax" : {
+                    //         //     "url" : "http://127.0.0.1:8000/html/"
+                    //         //     },
+                    //             // "data" : function(n) {
+                    //             //     return {
+                    //             //         url : 'http://127.0.0.1:8000/html/'
+                    //             //     };
+                    //             // }
+                    //         "xsl" : "flat",
+                    //         // "progressive_render" : true
+
+
+                         
+
+                    //     },
+
+                    //     "types" : {
+                    //         // I set both options to -2, as I do not need depth and children count checking
+                    //         // Those two checks may slow jstree a lot, so use only when needed
+                    //         // "max_depth" : -2,
+                    //         // "max_children" : -2,
+                    //         // I want only `drive` nodes to be root nodes 
+                    //         // This will prevent moving or creating any other type as a root node
+                    //         // "valid_children" : [ "drive" ],
+                    //         "types" : {
+                    //             // The default type
+                    //             "default" : {
+                    //                 // I want this type to have no children (so only leaf nodes)
+                    //                 // In my case - those are files
+                    //                 "valid_children" : "none",
+                    //                 "icon" : {
+                    //                     "image" : "{{ STATIC_URL }}file.png"
+                    //                 },
+                    //                 // If we specify an icon for the default type it WILL OVERRIDE the theme icons
+                    //                 // "icon" : {
+                    //                 //     "image" : "/static/v.1.0pre/_demo/file.png"
+                    //                 // }
+                    //             },
+                    //             // The `folder` type
+                    //             "folder" : {
+                    //                 // can have files and other folders inside of it, but NOT `drive` nodes
+                    //                 "valid_children" : [ "default", "folder" ],
+                    //                 "icon" : {
+                    //                     "image" : "{{ STATIC_URL }}folder.png"
+                    //                 }
+                    //             },
+                    //             // The `drive` nodes 
+                    //             "file" : {
+                    //                 // can have files and folders inside, but NOT other `drive` nodes
+                    //                 // "valid_children" : [ "default", "folder" ],
+                    //                 "icon" : {
+                    //                     "image" : "{{ STATIC_URL }}file.png"
+                    //                 },
+                    //                 // those prevent the functions with the same name to be used on `drive` nodes
+                    //                 // internally the `before` event is used
+                    //                 "start_drag" : false,
+                    //                 "move_node" : false,
+                    //                 "delete_node" : false,
+                    //                 "remove" : false
+                    //             }
+                    //         }
+                    //     },
+ 
+                    //     // "types" : {"default" : {"icon" : {"image" : "{{ STATIC_URL }}folder.png"}, 'valid_children' : 'default'}},
+                    //     "core" : {"animation" : 0},
+                    //     "plugins" : [ "themes", "xml_data", "ui", "contextmenu", "crrm", "types" ],
+                    //     // "themes" : {"theme" : "apple"}
+
+                    // })
+                    $("#demo1").jstree({ 
+                        "json_data" : {
+                            "data" : [
+                                { 
+                                    "attr" : { "id" : "li.node.id1", "rel" : "folder"}, 
+                                    "data" : { 
+                                        "title" : "Long format demo", 
+                                        "attr" : { "href" : "#" }
+
+                                    },
+                                    "children" : [{ 
+                                    "attr" : { "id" : "li.node.id1" }, 
+                                    "data" : { 
+                                        "title" : "Long format demo", 
+                                        "attr" : { "href" : "#" }
+
+                                    },
+                                    "children" : [{ 
+                                    "attr" : { "id" : "li.node.id1" }, 
+                                    "data" : { 
+                                        "title" : "Long format demo", 
+                                        "attr" : { "href" : "#" }
+
+                                    },
+                                    "children" : ["child3"]
+
+                                }]
+
+                                }]
+
+                                }
+                            ],
+                            
+                        },
+                        "types" : {
+                            // I set both options to -2, as I do not need depth and children count checking
+                            // Those two checks may slow jstree a lot, so use only when needed
+                            // "max_depth" : -2,
+                            // "max_children" : -2,
+                            // I want only `drive` nodes to be root nodes 
+                            // This will prevent moving or creating any other type as a root node
+                            // "valid_children" : [ "drive" ],
+                            "types" : {
+                                // The default type
+                                "default" : {
+                                    // I want this type to have no children (so only leaf nodes)
+                                    // In my case - those are files
+                                    "valid_children" : "none",
+                                    "icon" : {
+                                        "image" : "{{ STATIC_URL }}file.png"
+                                    },
+                                    // If we specify an icon for the default type it WILL OVERRIDE the theme icons
+                                    // "icon" : {
+                                    //     "image" : "/static/v.1.0pre/_demo/file.png"
+                                    // }
+                                },
+                                // The `folder` type
+                                "folder" : {
+                                    // can have files and other folders inside of it, but NOT `drive` nodes
+                                    "valid_children" : [ "default", "folder" ],
+                                    "icon" : {
+                                        "image" : "{{ STATIC_URL }}folder.png"
+                                    }
+                                },
+                                // The `drive` nodes 
+                                "file" : {
+                                    // can have files and folders inside, but NOT other `drive` nodes
+                                    "valid_children" : [ "default", "folder" ],
+                                    "icon" : {
+                                        "image" : "{{ STATIC_URL }}file.png"
+                                    },
+                                    // those prevent the functions with the same name to be used on `drive` nodes
+                                    // internally the `before` event is used
+                                    "start_drag" : false,
+                                    "move_node" : false,
+                                    "delete_node" : false,
+                                    "remove" : false
+                                }
+                            }
+                        },
+                        "plugins" : [ "themes", "json_data", "ui", "types" ]
+                    })
+                    .bind("select_node.jstree", function(event, data) {
+                        alert(data.rslt.obj.attr("id"));
+                    })
+                    .delegate("a", "click", function (event, data) {event.preventDefault(); })
+                });  
+            });
+        </script>
+    </head>
+    <body> 
+        <div id="demo1">
+                <!-- <li class='jstree-closed' id='root2'><a href='#'>Root node</a></li> -->
+        </div>            
+        <!-- <img src="{{ STATIC_URL }}drive.png" alt="The peaks of High Tatras" width="96" height="72" /> -->
+        <div id="treeViewDiv">
+        </div>
+        <label>Файл1<br>
+<input type="file" name="fileimage">
+             </label>
+    </body>
+</html>
