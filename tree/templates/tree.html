@@ -55,13 +55,15 @@
                     $("#treeViewDiv").jstree({ 
                         "xml_data" : {
                             "ajax" : {
-                                "url" : "http://127.0.0.1:8000/xml-test/"
+                                "url" : "http://127.0.0.1:8000/xml/"
                                 },
-                                // "data" : function(n) {
-                                //     return {
-                                //         url : 'http://127.0.0.1:8000/html/'
-                                //     };
-                                // }
+                            // "data" : function(n) {
+                            //     return {
+                            //         id : n.attr ? n.attr("id") : 0,
+                            //         // rand : new Date().getTime()
+
+                            //     };
+                            // }
                             "xsl" : "nest",
                             "progressive_render" : true
 

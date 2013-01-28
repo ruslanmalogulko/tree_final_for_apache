@@ -1,0 +1,790 @@
+/data/share/production/ShowMustGoOn/PTS/SMGO4/Грим/Grim_4_prg.fcp
+/data/share/production/ShowMustGoOn/PTS/SMGO4/Грим/.AppleDouble/Grim_4_prg.fcp
+/data/share/production/ShowMustGoOn/PTS/SMGO10/28.11.12 SXS/sxs 2/Grim_10.fcp
+/data/share/production/ShowMustGoOn/PTS/SMGO10/28.11.12 SXS/sxs 2/.AppleDouble/Grim_10.fcp
+/data/share/production/ShowMustGoOn/PTS/SMGO6/.AppleDouble/Grim_6_prg.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/04/GRIM_SMGO_4 copy.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/04/.AppleDouble/GRIM_SMGO_4 copy.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/04/.AppleDouble/GRIM_SMGO_4 copy 2.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/04/GRIM_SMGO_4 copy 2.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/10/.AppleDouble/Grim_10_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/10/.AppleDouble/Grim_10.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/10/Grim_10.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/10/Grim_10_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/09/Grim_9/.AppleDouble/GRIM_9.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/09/Grim_9/GRIM_9.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/07/.AppleDouble/Grim-7.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/07/Grim-7.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/08/Grim-8.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/08/.AppleDouble/Grim-8.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/05/.AppleDouble/Grim-5.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/05/Grim-5.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/06/Grim_6_prg.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Grim/06/.AppleDouble/Grim_6_prg.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/riba_SNX_11_SOKR.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/.AppleDouble/SMGO_11_Solonevich.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/.AppleDouble/riba_SNX_11 copy.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/.AppleDouble/riba_SNX_11_SOKR.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/SMGO_11_Solonevich.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/riba_SNX_11 copy.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_4/.AppleDouble/ShowMustGoOn_4.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_4/ShowMustGoOn_4.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmastgoon_8/.AppleDouble/Showmust_8.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmastgoon_8/Showmust_8.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_9/.AppleDouble/ShowMustGoOn_9.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_9/.AppleDouble/ShowMustGoOn_9copy.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_9/ShowMustGoOn_9.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_9/ShowMustGoOn_9copy.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_11/SMGO_11.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_11/.AppleDouble/SMGO_11.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_7/.AppleDouble/ShowMust_7.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_7/ShowMust_7.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_12/SMGO12_new.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_12/.AppleDouble/SMGO12_new.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_10/.AppleDouble/ShowMustGoOn_10.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_10/ShowMustGoOn_10.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_5/ShowMust_GoOn_5_new.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_5/.AppleDouble/ShowMust_GoOn_5_new.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_5/.AppleDouble/ShowMust_GoOn_5.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_5/ShowMust_GoOn_5.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_6/ShowMustGoOn_6_copy.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/ShowMustGoOn_6/.AppleDouble/ShowMustGoOn_6_copy.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/Showmust_1.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/.AppleDouble/Showmust_2.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/.AppleDouble/Showmust_3.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/.AppleDouble/Showmust_1.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/2-3/project_ingest.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/2-3/.AppleDouble/project_ingest.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/Showmust_2.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Zapis/Podyom/showmustgoon/Showmust_3.fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Fon/Dor/.AppleDouble/riba_SNX_11 .fcp
+/data/share/production/ShowMustGoOn/INTERVIEW_R_B/Fon/Dor/riba_SNX_11 .fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/09/Dnevniki_9_Ridenbka.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/09/Dnevniki_9_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/09/.AppleDouble/Dnevniki_9_Ridenbka.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/09/.AppleDouble/Dnevniki_9_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/DNEVNIKI 3_part2 copy.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/DNEVNIKI 3.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/Dnevniki_SolonevichFC7.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/DNEVNIKI 3_part2.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/.AppleDouble/DNEVNIKI 3_part2.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/.AppleDouble/DNEVNIKI 3.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/.AppleDouble/Dnevniki_SolonevichFC7.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/03/.AppleDouble/DNEVNIKI 3_part2 copy.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/10/Dnevniki_Natasha.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/10/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/10/.AppleDouble/Dnevniki_Natasha.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/10/.AppleDouble/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/04/REPETICII 4.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/04/.AppleDouble/Repet_4_part2.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/04/.AppleDouble/REPETICII 4.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/04/Repet_4_part2.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/07/.AppleDouble/Dnevniki_7_Solonevich .fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/07/.AppleDouble/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/07/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/07/Dnevniki_7_Solonevich .fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/05/.AppleDouble/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/05/.AppleDouble/Dnevniki_5_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/05/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/05/Dnevniki_5_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/02/Dnevnik2_Solonev.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/02/.AppleDouble/Dnevnik2_Solonev.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/02/.AppleDouble/2Programa dnevniki.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/02/2Programa dnevniki.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/08/Dnevniki_8_Zaharoff.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/08/.AppleDouble/Dnevniki_8_Zaharoff.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/08/.AppleDouble/Dnevniki_8_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/08/Dnevniki_8_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/vizitki/Koliaden-Vitov-Meyher/proba.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/vizitki/Koliaden-Vitov-Meyher/.AppleDouble/proba.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/vizitki/.AppleDouble/dorofeeva.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/vizitki/dorofeeva.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/vizitki/PRESNYAKOV VIZITKA/.AppleDouble/PRESNYAKOV VEZITKA.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/vizitki/PRESNYAKOV VIZITKA/PRESNYAKOV VEZITKA.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/06/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/06/.AppleDouble/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/06/.AppleDouble/Dnevniki_6_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/06/Dnevniki_6_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/01/profile_1.fcp
+/data/share/production/ShowMustGoOn/Arxiv_Dnevniki/01/.AppleDouble/profile_1.fcp
+/data/share/production/ShowMustGoOn/Masters/SMGO_01/.AppleDouble/BEST MANUCHAROV.fcp
+/data/share/production/ShowMustGoOn/Masters/SMGO_01/BEST MANUCHAROV.fcp
+/data/share/production/ShowMustGoOn/Masters/SMGO_02/MASTER_2/MASTER_2-1.fcp
+/data/share/production/ShowMustGoOn/Masters/SMGO_02/MASTER_2/.AppleDouble/MASTER_2-1.fcp
+/data/share/production/ShowMustGoOn/Masters/SMGO_04/4MASTER.fcp
+/data/share/production/ShowMustGoOn/Masters/SMGO_04/.AppleDouble/4MASTER.fcp
+/data/share/production/ShowMustGoOn/Zriteli/.AppleDouble/SMGO_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Zriteli/SMGO_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Razobrat/.AppleDouble/SMGO_3_master FIXED_TITLES.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/7777/7256/7256.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/7777/7256/.AppleDouble/7256.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/Koliadenko.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/NA_ZVUK/Show__MASTER_10-07-12_0434 copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/NA_ZVUK/.AppleDouble/Show__MASTER_10-07-12_0434 copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/.AppleDouble/Koliadenko.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/PRESNYAKOV VIZITKA/PRESNYAKOV VEZITKA.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_1/PRESNYAKOV VIZITKA/.AppleDouble/PRESNYAKOV VEZITKA.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_3_master FIXED_TITLES.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/ISTIL FISH/.AppleDouble/PROGRAMA 2-Fc 7.0 copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/ISTIL FISH/.AppleDouble/PROGRAMA 2-Fc 7.0 copy copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/ISTIL FISH/PROGRAMA 2-Fc 7.0 copy copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/ISTIL FISH/PROGRAMA 2-Fc 7.0 copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/ShowMustGoOn_2/._PROGRAMA 2-Fc 7.0 copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/ShowMustGoOn_2/.AppleDouble/._PROGRAMA 2-Fc 7.0 copy.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/Referens_program_2/REFERENS_DV.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/Referens_program_2/.AppleDouble/REFERENS_DV.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/_ PROGRAM 2 SUJET/DNEVNIKI part 1/.AppleDouble/Vitovskaia_Presniakov.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_2/_ PROGRAM 2 SUJET/DNEVNIKI part 1/Vitovskaia_Presniakov.fcp
+/data/share/production/ShowMustGoOn/Razobrat/MASTER/SMGO_2_AVM_28_ copy copykkkkkkk.fcp
+/data/share/production/ShowMustGoOn/Razobrat/MASTER/.AppleDouble/SMGO_2_AVM_28_ copy copykkkkkkk.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_3/_Program_3_syjety/Dnevniki_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Razobrat/SMGO_3/_Program_3_syjety/.AppleDouble/Dnevniki_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/2_Krivoshapka-Lenny_Kravitz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/5_Dorofeeva-Jagger.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/7_Kolyadenko-Celentano.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/3_Vitovskaya-Ruslana.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/6_Rodriges-Pavliashvili.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/1_Zadorozhnaya-Elka+Nacalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/1_Zadorozhnaya-Elka+Nacalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/9_Meuher-Gurchenko_NA BIS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/3_Vitovskaya-Ruslana.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/2_Krivoshapka-Lenny_Kravitz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/5_Dorofeeva-Jagger.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/4_Presnyakov-Presnyakov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/7_Kolyadenko-Celentano.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/6_Rodriges-Pavliashvili.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/.AppleDouble/8_Meyher-Gurchenko  .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/8_Meyher-Gurchenko  .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/4_Presnyakov-Presnyakov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Nomera/9_Meuher-Gurchenko_NA BIS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/MASTER SHMGO 6 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/Prosmotr Bohdana.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/SMGO 6 titry.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/SMGO_6_Ocenki+Best.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/MASTER SHMGO 6 Tizer.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/Zritely.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/Lifty_6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/SMGO_6_Multic.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/SMGO_6_RYBA.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/MASTER SHMGO 6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/.AppleDouble/SMGO_6_Best_pered_Ocenkami.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/SMGO 6 titry.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/MASTER SHMGO 6 Tizer.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Zritely.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/Lifty_6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/MASTER SHMGO 6 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/lifty/.AppleDouble/Lifty_6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/lifty/Lifty_6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/SMGO_6_Ocenki+Best.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/SMGO_6_RYBA.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/SMGO_6_Multic.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/SMGO_6_Best_pered_Ocenkami.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_6/MASTER SHMGO 6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/Show_1_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/.AppleDouble/Show_1_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/.AppleDouble/Show_1_7.0_Part_2_New.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/PERENOS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/proba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1_7.0_All_Old.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1-10-12 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1_7.0_All_New.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/REFERENS 1programma.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/DNEVNIKI 1 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/ShMgo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1-10-12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/SHOW_SBOR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/DNEVNIKI 2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1_7.0.Part-2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/ShMgo_REKONEKT REFERENS+VIZITKI.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1-10-12 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/DNEVNIKI 2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/PERENOS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1_7.0_All_New.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/REFERENS 1programma.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1-10-12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Irma.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1_7.0_All_Old.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1_7.0.Part-2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/ShMgo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1_7.0.Part-1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/proba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/DNEVNIKI 1 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1_7.0.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/SHOW_SBOR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_copi 7256.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/.AppleDouble/Show_1_7.0_Part_2_New.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1_7.0_Part_2_New.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1_7.0.Part-1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_copi 7256.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Irma.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/ShMgo_REKONEKT REFERENS+VIZITKI.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/untitled folder/Show_1_7.0.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show_1_New/Show_1_7.0_Part_2_New.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/SMGO_1_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show__MASTER 7-10-12 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/Show__MASTER 7-10-12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/ZAHAR PRAVKI 1 PROG/SHMGO 1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/ZAHAR PRAVKI 1 PROG/.AppleDouble/SHMGO 1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/MASTER/Show__MASTER.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/MASTER/.AppleDouble/Show__MASTER.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/MASTER_EFIR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/111/Titles_NEw.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/111/.AppleDouble/Titles_NEw.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/111/.AppleDouble/Show__Part_1___7-10-12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/111/Show__Part_1___7-10-12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/.AppleDouble/MASTER_EFIR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/.AppleDouble/Show__MASTER 7-10-12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/.AppleDouble/Show__MASTER 7-10-12 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_1/.AppleDouble/SMGO_1_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/Nachitka_Masha.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/SMGO11_Moskva.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTER 11 SOWMASGOUON.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/FLASH/_prp.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/FLASH/.AppleDouble/_prp.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/APLODISMENT.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/SMGO_11_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/SMGO11_Moskva.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/Nachitka_Masha.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/SMGO_11_Solonevich copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/SMGO11_Studiya_Podvodki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/Rodrigez_11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/SMGO11_Krivoshapka_Meyher.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/SMGO11_Dorofeeva.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/Nachitka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/MASTER 11 SOWMASGOUON.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/APLODISMENT.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/.AppleDouble/SMGO_11_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/Rodrigez_11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/SMGO_11_Solonevich copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/SMGO11_Krivoshapka_Meyher.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/SMGO11_Dorofeeva.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/SMGO11_Studiya_Podvodki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/SMGO11_Presnyakov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/MASTER 100% 11/.AppleDouble/MASTER EFIR SMGO 11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/MASTER 100% 11/MASTER EFIR SMGO 11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/DOROFEEVA BUXLO.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/MASTER 11 PART 2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/Koliadenko_11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/SMGO11_ZADOROJNAYA.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/Rodrigez_11z.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/SMGO11_Krivoshapka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/SMGO11_Krivoshapka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/Treiller.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/MASTER 11 PART 1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/MEIXERZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/Koliadenko_11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/SMGO11_Dorofeevaz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/DOROFEEVA BUXLO.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/Rodrigez_11z.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/SKRIPKA Skripka FC 7 FULL.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/MASTER 11 PART 2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/Vitovskaia_11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/SMGO11_Presnyakov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/.AppleDouble/SMGO11_ZADOROJNAYA.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/SMGO11_Dorofeevaz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/SKRIPKA Skripka FC 7 FULL.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/Treiller.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/MASTER 11 PART 1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/Vitovskaia_11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/MASTERA 11 NOMERA/MEIXERZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_11/Nachitka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SMGO_5_razgovory.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SHMGO 5 MASTER SBOR PERELiV.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/BEST MOMENT 5/.AppleDouble/SMGO_4_YURA BEST MOMENTz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/BEST MOMENT 5/.AppleDouble/SMGO_4_YURA BEST MOMENTz copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/BEST MOMENT 5/SMGO_4_YURA BEST MOMENTz copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/BEST MOMENT 5/SMGO_4_YURA BEST MOMENTz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/Lifti_5+profile.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N5.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N4.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/SMGO_5N8.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N5.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N4.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N8.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/FISH 5/.AppleDouble/SMGO_5N10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SMGO_5_Ocinky.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SMGO_5_Ryba_last!!!!.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SHMGO 5 MASTER SBOR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SMGO_5_Anonsy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/Dnevniki_5_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SHMGO_5_Best_moments.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/Zriteli_applose.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SHMGO 5 MASTER SBOR PERELiV.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SMGO_5_Ocinky.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/Dnevniki_5_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SMGO_5_Anonsy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SMGO_5_Ryba_last!!!!.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SHMGO 5 MASTER SBOR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SMGO_5_Ocinky_Knopka_Bis.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SMGO_5_razgovory.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/Lifti_5+profile.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SHMGO 5 Shumovik+Rodrigez.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/.AppleDouble/SHMGO 5 MASTER SBOR MUTE SOUND.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SHMGO 5 Shumovik+Rodrigez.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/7_Kolyadenko-Tik.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/5_Vitovskaya_Dolina.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/5_Vitovskaya_Dolina.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/1_Meyher-Sher.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/3_Zadorozhnaya_Bilan.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/2_Dorofeeva-Babkina.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/7_Kolyadenko-Tik.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/8_Rodriges-Jakson.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/4_Presnyakov-Agilera.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/.AppleDouble/6_Krivoshapka-Moiseev.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/4_Presnyakov-Agilera.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/3_Zadorozhnaya_Bilan.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/2_Dorofeeva-Babkina.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/1_Meyher-Sher.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/6_Krivoshapka-Moiseev.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/NOMERA/8_Rodriges-Jakson.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/Zriteli_applose.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SHMGO_5_Best_moments.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SMGO_5_Ocinky_Knopka_Bis.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_5/SHMGO 5 MASTER SBOR MUTE SOUND.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_Ocinky.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_Ryba copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_Ryba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_MULTIC.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_Best_End.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/THISERZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_Lifty.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/SMGO8 Best moments+life from 7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/.AppleDouble/MASTER SMOTR 8z.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_Lifty.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/THISERZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_MULTIC.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_Ryba copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/9_Vitovska_BIS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/7_Koliadenko-Vaenga(dos'em).fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/2_Vtovskaya-Poplavskiy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/4_Zadorojhnaya-Minnelli(dos'em).fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/9_Vitovska_BIS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/5_Rodrigez-Shura.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/0_nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/1_Krivoshapko-M.Carey.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/3_Dorofeeva-Fabian.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/6_Meyxer-Povaliy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/.AppleDouble/8_Presniakov-Psy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/7_Koliadenko-Vaenga(dos'em).fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/0_nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/1_Krivoshapko-M.Carey.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/3_Dorofeeva-Fabian.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/2_Vtovskaya-Poplavskiy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/4_Zadorojhnaya-Minnelli(dos'em).fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/6_Meyxer-Povaliy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/8_Presniakov-Psy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/nomera/5_Rodrigez-Shura.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_Ocinky.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8 Best moments+life from 7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_Best_End.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/MASTER SMOTR 8z.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_8/SMGO8_Ryba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/TITR FULL 2PROG/FULL TITR 2programa.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/TITR FULL 2PROG/.AppleDouble/FULL TITR 2programa.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28_Knopka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28_ Knopka_3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28-pol_27.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28 BACKUP.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28_ Knopka_3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28_Zriteli_2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28_ Knopka_2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28_.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28_Knopka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/.AppleDouble/SMGO_2_AVM_28 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28_.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28_ Knopka_2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28 BACKUP.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28-pol_27.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/untitled folder/SMGO_2_AVM_28_Zriteli_2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/FULL TITR 2programa copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/SMGO_2_AVM_28.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/SMGO_2_AVM_21.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/.AppleDouble/FULL TITR 2programa copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/.AppleDouble/SMGO_2_AVM_28 LIFTZZZZZZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/.AppleDouble/klipi.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/.AppleDouble/SMGO_2_AVM_27 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/.AppleDouble/SMGO_2_AVM_27.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/.AppleDouble/SMGO_2_AVM_28.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/.AppleDouble/SMGO_2_AVM_21.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/SMGO_2_AVM_28 LIFTZZZZZZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/COPI/SMGO_2_AVM_28COPI.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/COPI/.AppleDouble/SMGO_2_AVM_28COPI.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/SMGO_2_AVM_27 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/SMGO_2_AVM_27.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/klipi.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER/SMGO_2_MASTER CALAPS MULT.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER/.AppleDouble/SMGO_2_MASTER CALAPS MULT TITROZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER/.AppleDouble/SMGO_2_MASTER CALAPS MULT.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER/.AppleDouble/SMGO_2_MASTER.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER/SMGO_2_MASTER.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER/SMGO_2_MASTER CALAPS MULT TITROZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER_SPLASKAMI_NEW_TITR/.AppleDouble/SGMO_2_LAST_VERSION.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_2/MASTER_SPLASKAMI_NEW_TITR/SGMO_2_LAST_VERSION.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/MASTER SHMGO 7 TISER.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/ZRITELI 7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/MASTER SHMGO 7 _pravki zvuk.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Reakcii_Juri.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_7 Riba copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_7_Best_End.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_7 MOMENTzBest.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/MASTER SHMGO 7 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_PEREDELANNYE_DNEVNIKI.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/MASTER SHMGO 7 _pravki zvuk.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/Reakcii_Juri.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_7_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/MASTER SHMGO 7_preview.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/ZRITELI 7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/MASTER SHMGO 7PLASKOZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/MASTER SHMGO 7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/LAYno.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/MASTER SHMGO 7 TISER.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_7 Ocenki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/MASTER SHMGO 7 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_7_Best_End.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_7 MOMENTzBest.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_7 Riba copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/BEST KOROTKO.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_7 Riba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/.AppleDouble/SMGO_7_Best.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_7 Ocenki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/lifty/.AppleDouble/lifty_7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/lifty/lifty_7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/MASTER SHMGO 7PLASKOZ.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/BEST KOROTKO.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_PEREDELANNYE_DNEVNIKI.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/MASTER SHMGO 7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/1_koliadenko-coi.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/7_Vitovskaya-Piaf.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/8_Rodrigez-Ross.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/6_Krivoshapko-Zibrov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/3_Presniakov-Mercury.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/9_Mercury_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/0_SMGO_7 Nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/2_Meyxer-Leontiev.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/4_Zadorojnaya-Koroliova.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/1_koliadenko-coi.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/.AppleDouble/5_Dorofeeva-Jamala.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/9_Mercury_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/0_SMGO_7 Nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/2_Meyxer-Leontiev.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/6_Krivoshapko-Zibrov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/3_Presniakov-Mercury.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/7_Vitovskaya-Piaf.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/5_Dorofeeva-Jamala.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/4_Zadorojnaya-Koroliova.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/Nomera/8_Rodrigez-Ross.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_7_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/LAYno.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/MASTER SHMGO 7_preview.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_7_Best.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/7 MASTER SGON/MASTER SHMGO 7 SGON.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/7 MASTER SGON/.AppleDouble/MASTER SHMGO 7 SGON.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_7/SMGO_7 Riba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_27_FULL.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_27_FUL_Bohdana_4.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_27_FUL_Bohdana_4.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_19 15.10 419.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_REFERENSY_181012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_reakcii juri.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_LUCHEE MOMENTI 2 program.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_19 15.10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_19.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_27_FULL.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/.AppleDouble/SMGO_3_AVM_19 13.10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_reakcii juri.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_LUCHEE MOMENTI 2 program.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_REFERENSY_181012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_19 13.10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_19.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_19 15.10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Old/SMGO_3_AVM_19 15.10 419.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/SMGO_3_Yura.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/SMGO_3_BEST M.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Best_Moments_161012/SMGO_3_BEST_ MOMENTI 2 program_161012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/Best_Moments_161012/.AppleDouble/SMGO_3_BEST_ MOMENTI 2 program_161012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/SMGO_3_master.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/SMGO_3_SMOTR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/MASTER+FREEDOM/.AppleDouble/SMGO_3_MASTER+FREEDOM.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/MASTER+FREEDOM/SMGO_3_MASTER+FREEDOM.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/SMGO_3_dubl.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/SMGO_3_Yura 5-30 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/SMGO_3_Yura 5-30.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/.AppleDouble/SMGO_3_BEST M.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/.AppleDouble/SMGO_3_Yura 5-30 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/.AppleDouble/SMGO_3_Yura.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/.AppleDouble/SMGO_3_SMOTR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/.AppleDouble/SMGO_3_master.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/.AppleDouble/SMGO_3_dubl.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_3/.AppleDouble/SMGO_3_Yura 5-30.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/Best_From_SGMO9zzz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/SMGO_9_Multic.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/THISER Krivoshapka-Meladze copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/SMGO_9_Best.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/SMGO_9_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/Elevators/Lifty_9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/Elevators/.AppleDouble/Lifty_9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/THISER Vitovskaya.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/THIZER Malinin .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/SMGO_9_Ocinky+Knopka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/SMGO_9_Riba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/SMGO_9_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/SMGO_9_Riba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/THIZER Malinin .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/THISER Krivoshapka-Meladze copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/BEST_from_8.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/SMGO_9_Multic.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/Best_From_SGMO9zzz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/SMGO_9_Best.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/THISER Vitovskaya.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/SMGO_9_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/MASTER SHMGO 9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/.AppleDouble/SMGO_9_Ocinky+Knopka.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/0_Nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/8_Krivoshapka-Meladze.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/3_Dorofeeva-Winehouse.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/1_Zadorozhnaya-Baskov+POTAP.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/4_Kolyadenko-Kirkorov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/4_Kolyadenko-Kirkorov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/9_Rodriges-Aznavur_Na_Bis.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/6_Rodriges-Aznavur.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/2_Presnyakov-Malinin.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/5_Vitovskaya-Pink.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/7_Meyher-LedyGaGa.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/0_Nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/8_Krivoshapka-Meladze.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/1_Zadorozhnaya-Baskov+POTAP.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/.AppleDouble/3_Dorofeeva-Winehouse.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/2_Presnyakov-Malinin.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/7_Meyher-LedyGaGa.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/9_Rodriges-Aznavur_Na_Bis.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/5_Vitovskaya-Pink.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/NOMERA/6_Rodriges-Aznavur.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/MASTER SHMGO 9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/BEST_from_8.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_9/SMGO_9_Zriteli.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_YURA BEST MOMENTz copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Ryba_Part1_RECONEKT.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_YURA  BEST MOMENTS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Obnimashki_221012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_nomera BEST.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/!!!SMGO_4_FULL ZBOR(90%)_TITRY.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Titry.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/best momments_4 konec progr.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_nomera.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Lifty_23.10.2012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Ryba_191012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_YURA .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/Grim_4_prg.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/LIFTY-4/SMGO_4_LIFTY_161012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/LIFTY-4/.AppleDouble/SMGO_4_LIFTY_161012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Ryba_Part1_211012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Multik.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Ryba_Part1_21.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Golosovanie.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/!!!SMGO_4_FULL ZBOR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS4.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS5.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS8.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS10 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS13.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS4.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS_261012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/.AppleDouble/!!!SMGO_4_FULL ZVUK FUL VIDOS5.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS10 copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS11.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS_261012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS6.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS8.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS12.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS13.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/END SHMGO ZVUK/!!!SMGO_4_FULL ZVUK FUL VIDOS7.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_razgovory.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/OBNIMASKOZ/SMGO_4_Obnimashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/OBNIMASKOZ/.AppleDouble/SMGO_4_Obnimashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Turner+Bilyk.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/SMGO_4_Ryba_201012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/!!!SMGO_4_FULL ZBOR(90%) .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/Grim_4_prg.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Ryba_Part1_21.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Golosovanie.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/!!!SMGO_4_FULL ZBOR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/best momments_4 konec progr.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_YURA .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Obnimashki_221012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Ryba_201012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/!!!SMGO_4_FULL ZBOR(90%) .fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Ryba_Part1_211012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Multik.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Turner+Bilyk.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Titry.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_razgovory.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_nomera BEST.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_YURA  BEST MOMENTS.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_nomera.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_YURA BEST MOMENTz copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Lifty_23.10.2012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Ryba_191012.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/SMGO_4_Ryba_Part1_RECONEKT.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_4/.AppleDouble/!!!SMGO_4_FULL ZBOR(90%)_TITRY.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/MASTER SOMGO 10 PART 3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Best 10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/SMGO10_Multik.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/SMGO10_Ryba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/ZRITELI 10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/!!!! FULL MASTER SHMGO 10END.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Pozdravlenie.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/MASTER SOMGO 10 PART 2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/6_Meyxer.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/0_Nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/2_Grebenuk.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/1_Galcev.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/11_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/9_Zadorojnaya&Koliadenko.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/4_Reva.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/5_Presniakov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/8_Rodrigez.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/1_Galcev.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/7_Irma.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/6_Meyxer.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/2_Grebenuk.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/11_Final.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/3_Manicharov&Freimut.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/5_Presniakov.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/9_Zadorojnaya&Koliadenko.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/8_Rodrigez.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/4_Reva.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/10_Dorofeeva&Krivoshapko.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/.AppleDouble/0_Nachalo.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/10_Dorofeeva&Krivoshapko.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/7_Irma.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Nomera/3_Manicharov&Freimut.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/THISERA 10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/!!!! FULL MASTER SHMGO 10END 419.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/!!!! FULL MASTER SHMGO 10END NOMERAzz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/MASTER SOMGO 10 PART 1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/SMGO10_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/Lifty_10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/Best 10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/MASTER SOMGO 10 PART 1.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/SMGO10_Ryba.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/!!!! FULL MASTER SHMGO 10END 419.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/ZRITELI 10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/SMGO10_PROMO.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/THISERA 10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/SMGO10_Ryba copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/SMGO10_Multik.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/Pozdravlenie ZAHAR.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/Pozdravlenie.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/MASTER SOMGO 10 PART 3.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/!!!! FULL MASTER SHMGO 10END.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/SMGO10_plashki.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/Best_From_SGMO9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/MASTER SOMGO 10 PART 2.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/.AppleDouble/!!!! FULL MASTER SHMGO 10END NOMERAzz.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/SMGO10_Ryba copy.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Best_From_SGMO9.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/SMGO10_PROMO.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Lifty_10.fcp
+/data/share/production/ShowMustGoOn/Projects/SMGO_10/Pozdravlenie ZAHAR.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/SMGO_2/PLASHKI 2 PROGRAMA/TITR 2 PROGRAMA.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/SMGO_2/PLASHKI 2 PROGRAMA/.AppleDouble/TITR 2 PROGRAMA FULL.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/SMGO_2/PLASHKI 2 PROGRAMA/.AppleDouble/TITR 2 PROGRAMA.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/SMGO_2/PLASHKI 2 PROGRAMA/TITR 2 PROGRAMA FULL.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/TITR PROJEKTS/TITROZA 3pppr copy100proc.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/TITR PROJEKTS/.AppleDouble/TITROZA 3pppr copy100proc.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/TITR PROJEKTS/.AppleDouble/TITR FC.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/TITR PROJEKTS/.AppleDouble/TITROZA # PROGAZ.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/TITR PROJEKTS/TITROZA # PROGAZ.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/TITR PROJEKTS/TITR FC.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/SMGO_3/.AppleDouble/TITR 3 PROGRAMA.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/SMGO_3/TITR 3 PROGRAMA.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/OTBIVKI PEREBIVKI.fcp
+/data/share/production/ShowMustGoOn/GRAPFIKO SOWmasGOon/.AppleDouble/OTBIVKI PEREBIVKI.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_4_prg/.AppleDouble/REP_4.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_4_prg/.AppleDouble/Repet_4_part2.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_4_prg/REP_4.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_4_prg/Repet_4_part2.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetytsia_1/PLAZMA/profile_1_09-25-12_1659 copy.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetytsia_1/PLAZMA/.AppleDouble/profile_1_09-25-12_1659 copy.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetytsia_1/profile_1.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetytsia_1/.AppleDouble/profile_1.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_2/profile_2.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_2/.AppleDouble/profile_2.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_2/.AppleDouble/profile_2_na_svod.fcp
+/data/share/production/ShowMustGoOn/avm28/Repetitsia_2/profile_2_na_svod.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/REFERENS/.AppleDouble/REFERENS 3 Prog.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/REFERENS/REFERENS 3 Prog.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevn_SoloNevich/Vitovskaia_Presniakov.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevn_SoloNevich/.AppleDouble/riba_11.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevn_SoloNevich/.AppleDouble/Vitovskaia_Presniakov.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevn_SoloNevich/riba_11.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevniki vse 2 programa/VSE dnevniki 2 programa/PRESTNIAKOV VOKAL/.AppleDouble/PRESTNYAKOV VOKAL.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevniki vse 2 programa/VSE dnevniki 2 programa/PRESTNIAKOV VOKAL/PRESTNYAKOV VOKAL.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevniki 3 programa/Dnevniki_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevniki 3 programa/.AppleDouble/Dnevniki_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/GRIM_Program2/.AppleDouble/Grim_prg_2.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/GRIM_Program2/Grim_prg_2.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/DNEVNIKI 5/.AppleDouble/Dnevniki_5_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/DNEVNIKI 5/.AppleDouble/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/TIZER_10_REVA/Tizer.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/TIZER_10_REVA/.AppleDouble/Tizer.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/_Repetitsia_3/Gost_prg_3/Tainyi_Gost_prg_3.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/_Repetitsia_3/Gost_prg_3/.AppleDouble/Tainyi_Gost_prg_3.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevniki_6_prg/.AppleDouble/Dnevniki_6_Solonevich.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Dnevniki_6_prg/.AppleDouble/Dnevniki_Lidagovsky.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Gost_prg_3/Tainyi_Gost_prg_3.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/Gost_prg_3/.AppleDouble/Tainyi_Gost_prg_3.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/LIFT 3PROGRAMA/.AppleDouble/MEIHER KNUT.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/LIFT 3PROGRAMA/.AppleDouble/LIFT 3.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/LIFT 3PROGRAMA/.AppleDouble/LIFT 3 MEDIA MENEJER.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/LIFT 3PROGRAMA/MEIHER KNUT.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/LIFT 3PROGRAMA/LIFT 3 MEDIA MENEJER.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/LIFT 3PROGRAMA/LIFT 3.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/SUJ NA 2 STUDI YFSF/TIZER_KOZLOVSKY.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/SUJ NA 2 STUDI YFSF/.AppleDouble/GRIM copy.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/SUJ NA 2 STUDI YFSF/.AppleDouble/TIZER_KOZLOVSKY.fcp
+/data/share/production/ShowMustGoOn/Dnevniki/SUJ NA 2 STUDI YFSF/GRIM copy.fcp
