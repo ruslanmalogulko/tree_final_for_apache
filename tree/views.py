@@ -8,13 +8,13 @@ from django.shortcuts import HttpResponse
 from django.shortcuts import redirect
 from django.template import RequestContext
 import xml.etree.ElementTree as ET
-from apps.models import TreeStore, VersionStore
+from apps.models import TreeStore, VersionStore, RestoreActions
 import MySQLdb, sys, os, random
 import ldap
 
 from tree.forms import UploadFileForm
 
-import tempfile, zipfile
+import tempfile, zipfile, datetime
 from django.http import HttpResponse
 from django.core.servers.basehttp import FileWrapper
 
@@ -224,27 +224,30 @@ def upload_file(request):
 
 
 def post(request):
-    id = ''
-    if request.POST:
-        print "there is post"
+    # id = ''
+    # if request.POST:
+    #     print "there is post"
+    #     id = request.POST['id']
+    #     # request.session['idn'] = id
+    # if request.FILES:
+    #     print "there is files"
+    if request.POST['id']:
         id = request.POST['id']
-        request.session['idn'] = id
-    if request.FILES:
-        print "there is files"
-    # if request.POST['id']:
-    print(id)
-    print request.session['idn']
-    response = ''
-    if request.session['idn']:
-        filename = request.session['idn']
-        wrapper = FileWrapper(file(filename))
-        response = HttpResponse(wrapper, content_type='application/zip')
-        response['Content-Disposition'] = 'attachment; filename='+filename.split('/')[-1]
-        response['Content-Length'] = os.path.getsize(filename)
-        print response['Content-Length']
-    # return HttpResponse('Hello world')
-        print filename
-    return response
+        print id
+        p = RestoreActions(version_store_id=id, dt_created=datetime.datetime.now())
+        p.save()
+    # print request.session['idn']
+        
+    # if request.session['idn']:
+    #     filename = request.session['idn']
+    #     wrapper = FileWrapper(file(filename))
+    #     response = HttpResponse(wrapper, content_type='application/zip')
+    #     response['Content-Disposition'] = 'attachment; filename='+filename.split('/')[-1]
+    #     response['Content-Length'] = os.path.getsize(filename)
+    #     print response['Content-Length']
+    # # return HttpResponse('Hello world')
+    #     print filename
+    return 
 
 
 def show_child(request):

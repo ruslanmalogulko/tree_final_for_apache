@@ -54,10 +54,10 @@
 
                     $("#treeViewDiv").jstree({ 
                         "xml_data" : {
-                            "ajax" : {
-                                "type" : "POST",
-                                "url" : "http://127.0.0.1:8000/xml/",           
-                                "data" : function(n) {
+                            ajax : {
+                                type : "POST",
+                                url : "http://127.0.0.1:8000/xml/",           
+                                data : function(n) {
                                     return {
                                         id : n.attr ? n.attr("id") : 0,
                                         
@@ -66,8 +66,8 @@
                                     };
                                 },
                             },
-                            "xsl" : "nest",
-                            "progressive_render" : true
+                            xsl : "nest",
+                            progressive_render : true
 
                         },
 
@@ -125,9 +125,7 @@
 
                     })
                     .bind("select_node.jstree", function (event, data) {
-                        // `data.rslt.obj` is the jquery extended node that was clicke
-                            // $.post("/tree/childs/");
-                            // console.log(data.rslt.obj.attr("id"));
+                          if (data.rslt.obj.attr("rel") ===  "file") {
                             $.ajax({ 
                                 type : "POST",
                                 url: "/tree/childs/",  
@@ -136,15 +134,9 @@
                                 success: function(html){  
                                     $("#selectable1").html(html);
                                 }
-                            //     // data : function(n) {
-                            //     //     return {
-                            //     //         id : n.attr ? n.attr("id") : 0,
-                                        
-                            //     //         // rand : new Date().getTime()
-
-                            //     //     };
-                            //     // }, 
+                           
                             });
+                          }
                         })
 
                     .delegate("a", "click", function (event, data) {event.preventDefault(); })
@@ -160,8 +152,10 @@
               .button()
               .click(function( event ) {
                 event.preventDefault();
+                $.post("/post/", {id:$(".ui-selected", "#selectable1").attr("id")});
                 
-                location.replace('http://127.0.0.1:8000/post');
+                
+                // location.replace('http://127.0.0.1:8000/post');
               });
           });
           $(function() {
@@ -178,8 +172,10 @@
           $(function() {
             $( "#selectable1" ).selectable({
               stop: function() {
-                $.post("/post/", {id:$(".ui-selected", this).attr('id')});
+                // alert("hi");
+                // $.post("/post/", {id:$(".ui-selected", this).attr('id')});
                 var result = $( "#select-result1" ).empty();
+
                 $( ".ui-selected", this ).each(function() {
                   var index = $( "#selectable1 li" ).index( this );
                   result.append( " #" + ( index + 1 ) );
