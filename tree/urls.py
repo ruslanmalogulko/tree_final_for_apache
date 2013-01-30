@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from views import show_child, xml_test, post, send_zip, send_file, upload_file, xml_data, login, tree
+from views import show_child, post, send_zip, send_file, upload_file, xml_data, login, tree
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -13,7 +13,7 @@ urlpatterns = patterns('',
     (r'send/$', send_file),
     (r'sendzip/$', send_zip),
     (r'post/$', post),
-    (r'xml-test/$', xml_test),
+    # (r'xml-test/$', xml_test),
     (r'tree/childs/$', show_child),
 
     # Examples:

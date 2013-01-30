@@ -9,18 +9,26 @@
 
 from django.db import models
 
-
-
-class Xmltree(models.Model):
+class TreeStore(models.Model):
     id = models.IntegerField(primary_key=True)
-    xmldata = models.CharField(max_length=45000, blank=True)
+    fullpath = models.CharField(max_length=12288)
+    file_is = models.IntegerField()
+    size = models.IntegerField(null=True, blank=True)
+    mtime = models.CharField(max_length=90, blank=True)
+    dt_created = models.DateTimeField(null=True, blank=True)
+    dt_modified = models.DateTimeField(null=True, blank=True)
+    dt_deleted = models.DateTimeField(null=True, blank=True)
+    checked = models.IntegerField()
+    level = models.IntegerField()
     class Meta:
-        db_table = u'xmltree'
+        db_table = u'tree_store'
 
-
-class Testtree(models.Model):
+class VersionStore(models.Model):
     id = models.IntegerField(primary_key=True)
-    path = models.CharField(max_length=1500, blank=True)
+    tree_store_id = models.IntegerField(null=True, blank=True)
+    filepath = models.CharField(max_length=3000, blank=True)
+    filename = models.CharField(max_length=900, blank=True)
+    dt_created = models.DateTimeField()
     class Meta:
-        db_table = u'testtree'
+        db_table = u'version_store'
 

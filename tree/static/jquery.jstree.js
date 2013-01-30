@@ -3191,6 +3191,9 @@
 
 				obj = this._get_node(obj);
 				if(obj && obj !== -1) {
+					// alert(obj.attr("id"))
+					// $.post("/xml/", {id:obj.attr("id")});
+					// console.log(obj.attr("id"));
 					if(obj.data("jstree_is_loading")) { return; }
 					else { obj.data("jstree_is_loading",true); }
 				}
@@ -3756,6 +3759,7 @@
 							"action"			: function (obj) { 
 							$.post("/tree/childs/", {id:obj.attr("id")});
 							$.ajax({ 
+								type:"GET",
 			                    url: "/tree/childs/",  
 			                    cache: false,  
 			                    success: function(html){  

@@ -8,7 +8,7 @@ from django.shortcuts import HttpResponse
 from django.shortcuts import redirect
 from django.template import RequestContext
 import xml.etree.ElementTree as ET
-from apps.models import Xmltree, Testtree
+from apps.models import TreeStore, VersionStore
 import MySQLdb, sys, os, random
 import ldap
 
@@ -69,113 +69,138 @@ def tree(request):
     return render_to_response('tree.html', {}, context_instance=RequestContext(request))
 
 # Root path for all nodes
-root_path = '/data/share/production/ShowMustGoOn/'
+root_path = TreeStore.objects.filter(level=1)[0]
 
 # Select all items from Testtree model and form lines array with nodes paths
-base = Testtree.objects.all()
-lines = []
-for line in base:
-    lines.append(line.path)
-lines.sort()
+base = TreeStore.objects.all()
+# lines = []
+# for line in base:
+#     lines.append(line.path)
+# lines.sort()
 
 
 # Gives us generated xml document 
 def xml_data(request): 
-    doc = Document()
-    root = doc.createElement('root')
-    doc.appendChild(root)         
-    # print lines
-    def makenode(path):
-    # "Return a document node contains a directory tree for the path."
-        node = doc.createElement('item')
-        node.setAttribute('id', path)
-        node.setAttribute('rel', 'folder')
-        nodecontent = doc.createElement('content')
-        node.appendChild(nodecontent)
-        nodename = doc.createElement('name')
-        nodecontent.appendChild(nodename)
-        nodetext = doc.createTextNode(path.split('/')[-1])
-        nodename.appendChild(nodetext)
-        child_list = getChild(path)
-        for f in child_list:
-            # print(f)
-            if isdir(f):
-                elem = makenode(f)
+
+    
+    if request.POST:
+        if 'id' in request.POST:
+            if request.POST['id'] == "0":
+                print "POST id: %s" % request.POST['id']
+                root_path = TreeStore.objects.filter(level=1)[0]
             else:
-                elem = doc.createElement('item')
-                elem.setAttribute('parent_id', path)
-                elem.setAttribute('id', f)
-                elem.setAttribute('rel', 'file')
-                nodecontent = doc.createElement('content')
-                elem.appendChild(nodecontent)
-                nodename = doc.createElement('name')
-                nodecontent.appendChild(nodename)
-                nodetext = doc.createTextNode(f.split('/')[-1])
-                nodename.appendChild(nodetext)
-            node.appendChild(elem)
-        return node
-    root.appendChild(makenode('/data/share/production/ShowMustGoOn'))
-    print(doc)
-    return HttpResponse(doc.toprettyxml(), mimetype="application/xhtml+xml")
-
-
-def xml_test(request): 
+                print 'there is post for xml_data'
+                print "POST id: %s" % request.POST['id']
+                root_path = TreeStore.objects.get(fullpath=request.POST['id'])
+                print 'root path %s' % root_path.fullpath
+    # else:
+    #     root_path = TreeStore.objects.filter(level=1)[0]
     doc = Document()
     root = doc.createElement('root')
     doc.appendChild(root)         
-    # print lines
-    def makenode(path):
-        # "Return a document node contains a directory tree for the path."
-        node = doc.createElement('item')
-        node.setAttribute('id', path)
-        node.setAttribute('rel', 'folder')
-        nodecontent = doc.createElement('content')
-        node.appendChild(nodecontent)
-        nodename = doc.createElement('name')
-        nodecontent.appendChild(nodename)
-        nodetext = doc.createTextNode(path.split('/')[-1])
-        nodename.appendChild(nodetext)
-        for f in os.listdir(path):
-            fullname = os.path.join(path, f)
-            if os.path.isdir(fullname):
-                elem = makenode(fullname)
-            # else:
-            #     elem = doc.createElement('item')
-            #     elem.setAttribute('parent_id', path)
-            #     elem.setAttribute('id', fullname)
-            #     elem.setAttribute('rel', 'file')
-            #     nodecontent = doc.createElement('content')
-            #     elem.appendChild(nodecontent)
-            #     nodename = doc.createElement('name')
-            #     nodecontent.appendChild(nodename)
-            #     nodetext = doc.createTextNode(f)
-            #     nodename.appendChild(nodetext)
-                node.appendChild(elem) #if want, backup after
-        return node
-    root.appendChild(makenode('/home/russel/Downloads'))
-    print(doc)
+    
+    child_list = getChild(root_path)
+    # print "STart parsing child_list"
+    for f in child_list:
+        # print("Fullpath %s" % f.fullpath)
+        if isdir(f):
+            elem = doc.createElement('item')
+            elem.setAttribute('id', f.fullpath)
+            elem.setAttribute('state', 'closed')
+            elem.setAttribute('rel', 'folder')
+            nodecontent = doc.createElement('content')
+            elem.appendChild(nodecontent)
+            nodename = doc.createElement('name')
+            nodecontent.appendChild(nodename)
+            nodetext = doc.createTextNode(f.fullpath.split('/')[-1])
+            # print "DIR: %s" % f.fullpath.split('/')[-1]
+            nodename.appendChild(nodetext)
+        else:
+            print "FILE: %s" % f.fullpath.split('/')[-1]
+            elem = doc.createElement('item')
+            elem.setAttribute('parent_id', f.fullpath)
+            elem.setAttribute('id', f.fullpath)
+            # elem.setAttribute('state', 'open')
+            elem.setAttribute('rel', 'file')
+            nodecontent = doc.createElement('content')
+            elem.appendChild(nodecontent)
+            nodename = doc.createElement('name')
+            nodecontent.appendChild(nodename)
+            nodetext = doc.createTextNode(f.fullpath.split('/')[-1])
+            # print "FILE: %s" % f.fullpath.split('/')[-1]
+            nodename.appendChild(nodetext)
+        root.appendChild(elem)
+
+    # print(doc.toprettyxml())
+    # print "End of xml_data"
     return HttpResponse(doc.toprettyxml(), mimetype="application/xhtml+xml")
+
+
+# def xml_test(request): 
+#     doc = Document()
+#     root = doc.createElement('root')
+#     doc.appendChild(root)         
+#     # print lines
+#     def makenode(path):
+#         # "Return a document node contains a directory tree for the path."
+#         node = doc.createElement('item')
+#         node.setAttribute('id', path)
+#         node.setAttribute('rel', 'folder')
+#         nodecontent = doc.createElement('content')
+#         node.appendChild(nodecontent)
+#         nodename = doc.createElement('name')
+#         nodecontent.appendChild(nodename)
+#         nodetext = doc.createTextNode(path.split('/')[-1])
+#         nodename.appendChild(nodetext)
+#         for f in os.listdir(path):
+#             fullname = os.path.join(path, f)
+#             if os.path.isdir(fullname):
+#                 elem = makenode(fullname)
+#             # else:
+#             #     elem = doc.createElement('item')
+#             #     elem.setAttribute('parent_id', path)
+#             #     elem.setAttribute('id', fullname)
+#             #     elem.setAttribute('rel', 'file')
+#             #     nodecontent = doc.createElement('content')
+#             #     elem.appendChild(nodecontent)
+#             #     nodename = doc.createElement('name')
+#             #     nodecontent.appendChild(nodename)
+#             #     nodetext = doc.createTextNode(f)
+#             #     nodename.appendChild(nodetext)
+#                 node.appendChild(elem) #if want, backup after
+#         return node
+#     root.appendChild(makenode('/home/russel/Downloads'))
+#     print(doc)
+#     return HttpResponse(doc.toprettyxml(), mimetype="application/xhtml+xml")
 
 
 # Get all child elements for node with path 
 def getChild(path):
+    data = TreeStore.objects.filter(level=path.level+1, fullpath__contains=path.fullpath)
+    # print(data)
     childs = []
-    for line in lines:
-        if path in line and len(line) != len(path):
-            path_splitted = path.split('/')
-            line_splitted = line.split('/')
-            new_path = ''
-            for item in line_splitted[1:len(path_splitted)+1]:
-                new_path += '/' + item
-            if new_path not in childs:
-                childs.append(new_path)          
+    for item in data:
+        if path.fullpath!=item.fullpath:
+            print item.fullpath
+            childs.append(item)
+            # print str(vars(childs))
+
+    # for line in lines:
+    #     if path in line and len(line) != len(path):
+    #         path_splitted = path.split('/')
+    #         line_splitted = line.split('/')
+    #         new_path = ''
+    #         for item in line_splitted[1:len(path_splitted)+1]:
+    #             new_path += '/' + item
+    #         if new_path not in childs:
+    #             childs.append(new_path)          
     return childs
 # print(getChild(path))
 
 
 # Checks node type. Is node a directory? (Boolean)
 def isdir(path):
-    if (path.split('/')[-1].find('.')==0 or path.split('/')[-1].find('.')==-1):
+    if (path.file_is==0):
         return True
     else:
         return False
@@ -225,33 +250,34 @@ def post(request):
 def show_child(request):
     print "there is /tree/childs"
     path = ''
-    if request.session['path']:
-        path = request.session['path']
+    # if request.session['path']:
+    #     path = request.session['path']
     childs = []
     elements = ''
     if request.GET:
         print "there is get"
-    if request.POST:
-        print "there is post"
-        for a, b in request.POST.iteritems():
-            print a
-            print b
-        request.session['path'] = request.POST['id']
-        path = request.session['path']
-    print path
-    if path!='':
-        childs = os.listdir(path)
-    for item in childs:
-        if not (isdir(item)):
-            elements += '<li id="'+ path + '/' + item + '" class="ui-widget-content">' +item + '</li>'
-    # elements = '''<ol id="selectable" position="hide">
-    #       <li class="ui-widget-content">Item 1</li>
-    #       <li class="ui-widget-content">Item 2</li>
-    #       <li class="ui-widget-content">Item 3</li>
-    #       <li class="ui-widget-content">Item 4</li>
-    #       <li class="ui-widget-content">Item 5</li>
-    #       <li class="ui-widget-content">Item 6</li>
-    #     </ol>'''
+    print "request.POST['id']: %s" % request.POST['id']
+    path = request.POST['id']
+    items = VersionStore.objects.filter(tree_store_id=TreeStore.objects.filter(fullpath=path))
+    # if request.POST:
+    #     print "there is post"
+    #     # request.session['path'] = request.POST['id']
+    #     print "request.POST['id']: %s" % request.POST['id']
+    #     path = request.session['path']
+    #     items = VersionStore.objects.filter(tree_store_id=TreeStore.objects.filter(fullpath=path))
+        
+
+    # print path
+    # if path!='':
+    #     childs = os.listdir(path)
+    print items
+    for item in items:
+        print item.id
+        print item.dt_created
+        elements = '<li id="'+ str(item.id) + '" class="ui-widget-content">' +str(item.dt_created) + '</li>'
+        print "ELements: %s" % elements
+
+    # elements = '''<li class="ui-widget-content">2018-01-30 14:28:22+00:00</li>'''
     print elements
     return HttpResponse(elements)
 

@@ -55,15 +55,17 @@
                     $("#treeViewDiv").jstree({ 
                         "xml_data" : {
                             "ajax" : {
-                                "url" : "http://127.0.0.1:8000/xml/"
-                                },
-                            // "data" : function(n) {
-                            //     return {
-                            //         id : n.attr ? n.attr("id") : 0,
-                            //         // rand : new Date().getTime()
+                                "type" : "POST",
+                                "url" : "http://127.0.0.1:8000/xml/",           
+                                "data" : function(n) {
+                                    return {
+                                        id : n.attr ? n.attr("id") : 0,
+                                        
+                                        // rand : new Date().getTime()
 
-                            //     };
-                            // }
+                                    };
+                                },
+                            },
                             "xsl" : "nest",
                             "progressive_render" : true
 
@@ -124,13 +126,24 @@
                     })
                     .bind("select_node.jstree", function (event, data) {
                         // `data.rslt.obj` is the jquery extended node that was clicke
-                            $.post("/tree/childs/", {id:data.rslt.obj.attr("id")});
+                            // $.post("/tree/childs/");
+                            // console.log(data.rslt.obj.attr("id"));
                             $.ajax({ 
+                                type : "POST",
                                 url: "/tree/childs/",  
                                 cache: false,  
+                                data: {id: data.rslt.obj.attr("id")},
                                 success: function(html){  
                                     $("#selectable1").html(html);
-                                }  
+                                }
+                            //     // data : function(n) {
+                            //     //     return {
+                            //     //         id : n.attr ? n.attr("id") : 0,
+                                        
+                            //     //         // rand : new Date().getTime()
+
+                            //     //     };
+                            //     // }, 
                             });
                         })
 
