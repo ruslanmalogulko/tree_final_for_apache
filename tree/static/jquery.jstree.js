@@ -3757,7 +3757,7 @@
 							"separator_after"	: false,
 							"label"				: "Show instances",
 							"action"			: function (obj) { 
-							$.post("/tree/childs/", {id:obj.attr("id")});
+							// $.post("/tree/childs/", {id:obj.attr("id")});
 							$.ajax({ 
 								type:"GET",
 			                    url: "/tree/childs/",  
@@ -3776,8 +3776,7 @@
 				                modal: true,
 				                buttons: {
 				                "Load selected": function() {
-				                	$.post("/post/", {id:$(".ui-selected", '#selectable').attr('id')});
-									location.replace('http://127.0.0.1:8000/post');
+				                	$.post("/post/", {id:$(".ui-selected", "#selectable").attr("id")});
 				                  	$( this ).dialog( "close" );
 				                },
 				                Cancel: function() {

@@ -24,13 +24,13 @@
          #item {height:600px;width:45%; overflow: auto; background: #ffffee; }
          #header {text-align: center}
          #item {float:right; border-radius: 10px; position:absolute; right:20px;}
-
+/*Selectable items for dialog window*/
         #feedback { font-size: 1.0em; }
         #selectable .ui-selecting { background: #FECA40; }
         #selectable .ui-selected { background: #F39814; color: white; }
         #selectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
         #selectable li { margin: 3px; padding: 0.4em; font-size: 0.8em; height: 12px; }
-
+/*Selectable items for second window*/
         #feedback1 { font-size: 1.0em; }
         #selectable1 .ui-selecting { background: #FECA40; }
         #selectable1 .ui-selected { background: #F39814; color: white; }
@@ -49,7 +49,7 @@
                 $(function () {
                     document.getElementById('header').innerHTML = 'Hello world'
                 });
-
+// Xml data for ajax content
                 $(function () {
 
                     $("#treeViewDiv").jstree({ 
@@ -70,7 +70,7 @@
                             progressive_render : true
 
                         },
-
+// The types of nodes (folder, file)
                         "types" : {
                             // I set both options to -2, as I do not need depth and children count checking
                             // Those two checks may slow jstree a lot, so use only when needed
@@ -124,6 +124,7 @@
                         // "themes" : {"theme" : "apple"}
 
                     })
+// Function for clicking on node
                     .bind("select_node.jstree", function (event, data) {
                           if (data.rslt.obj.attr("rel") ===  "file") {
                             $.ajax({ 
@@ -133,12 +134,13 @@
                                 data: {id: data.rslt.obj.attr("id")},
                                 success: function(html){  
                                     $("#selectable1").html(html);
+                                    $("#selectable").html(html);
                                 }
                            
                             });
                           }
                         })
-
+// For IE compability
                     .delegate("a", "click", function (event, data) {event.preventDefault(); })
 
                 });
@@ -147,17 +149,19 @@
             });
         </script>
         <script>
+// Function for button GetFile
         $(function() {
         $( "input[type=submit], a, button" )
               .button()
               .click(function( event ) {
                 event.preventDefault();
-                $.post("/post/", {id:$(".ui-selected", "#selectable1").attr("id")});
+              $.post("/post/", {id:$(".ui-selected", "#selectable1").attr("id")});
                 
                 
                 // location.replace('http://127.0.0.1:8000/post');
               });
           });
+// Function for selectable items in popup menu
           $(function() {
             $( "#selectable" ).selectable({
               stop: function() {
@@ -169,6 +173,8 @@
               }
             });
           });
+
+// Fuction for selectable items in main box (under button get files)
           $(function() {
             $( "#selectable1" ).selectable({
               stop: function() {
@@ -191,7 +197,8 @@
         
     </head>
     <body>
-        
+
+<!-- Its main header with changed text by Javascript (just for fun). Replaced text doesn't cached by browsers -->
         <div id="header"><h3>Javascript tree</h3></div>
         <div id= "backups"></div>
                   

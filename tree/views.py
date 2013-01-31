@@ -1,16 +1,21 @@
 from django.http import HttpResponseRedirect
 from django.template import RequestContext, loader
 
-
 from django.contrib.auth.models import User
+
 from django.shortcuts import render_to_response
 from django.shortcuts import HttpResponse
 from django.shortcuts import redirect
 from django.template import RequestContext
+
 import xml.etree.ElementTree as ET
 from apps.models import TreeStore, VersionStore, RestoreActions
-import MySQLdb, sys, os, random
+
+import os
+import sys
 import ldap
+import random
+
 
 from tree.forms import UploadFileForm
 
@@ -18,10 +23,10 @@ import tempfile, zipfile, datetime
 from django.http import HttpResponse
 from django.core.servers.basehttp import FileWrapper
 
-import xml.etree.ElementTree as ET
 from xml.dom.minidom import Document
 
-# this ads comments to test git
+
+# tThe login page with LDAP auntefication
 def login(request):
     global urls
     urls = []
@@ -30,8 +35,8 @@ def login(request):
     password = ''
     username = ''
     request.session.clear()
-    server = 'ldap://172.22.64.41:389'
-
+    server = 'ldap://172.22.64.41:389' #AD server
+    request.session.set_expiry(0)
     base_dn='ou=Technical,dc=nc,dc=local'
 
     if 'login' in request.POST:
@@ -65,44 +70,45 @@ def login(request):
         {'errors': errors})
 
 
+# The main function for our tree. Render main page
 def tree(request):
-    return render_to_response('tree.html', {}, context_instance=RequestContext(request))
+    print request.session.values()
+    if 'user' in request.session:
+        print "Access approved for user"
+        return render_to_response('tree.html', {}, context_instance=RequestContext(request))
+    else:
+        message = '<a href="/login/">Login</a> first!'
+        return HttpResponse(message)
 
 # Root path for all nodes
-root_path = TreeStore.objects.filter(level=1)[0]
 
-# Select all items from Testtree model and form lines array with nodes paths
-base = TreeStore.objects.all()
-# lines = []
-# for line in base:
-#     lines.append(line.path)
-# lines.sort()
 
 
 # Gives us generated xml document 
 def xml_data(request): 
 
-    
+    root_path = TreeStore.objects.filter(level=1)
     if request.POST:
         if 'id' in request.POST:
             if request.POST['id'] == "0":
                 print "POST id: %s" % request.POST['id']
-                root_path = TreeStore.objects.filter(level=1)[0]
+                root_path = TreeStore.objects.filter(level=1)
+                child_list = root_path
             else:
                 print 'there is post for xml_data'
                 print "POST id: %s" % request.POST['id']
                 root_path = TreeStore.objects.get(fullpath=request.POST['id'])
                 print 'root path %s' % root_path.fullpath
-    # else:
-    #     root_path = TreeStore.objects.filter(level=1)[0]
+                child_list = getChild(root_path)
+   
+        
+
     doc = Document()
     root = doc.createElement('root')
     doc.appendChild(root)         
     
-    child_list = getChild(root_path)
-    # print "STart parsing child_list"
+    
     for f in child_list:
-        # print("Fullpath %s" % f.fullpath)
         if isdir(f):
             elem = doc.createElement('item')
             elem.setAttribute('id', f.fullpath)
@@ -113,65 +119,21 @@ def xml_data(request):
             nodename = doc.createElement('name')
             nodecontent.appendChild(nodename)
             nodetext = doc.createTextNode(f.fullpath.split('/')[-1])
-            # print "DIR: %s" % f.fullpath.split('/')[-1]
             nodename.appendChild(nodetext)
         else:
             print "FILE: %s" % f.fullpath.split('/')[-1]
             elem = doc.createElement('item')
             elem.setAttribute('parent_id', f.fullpath)
             elem.setAttribute('id', f.fullpath)
-            # elem.setAttribute('state', 'open')
             elem.setAttribute('rel', 'file')
             nodecontent = doc.createElement('content')
             elem.appendChild(nodecontent)
             nodename = doc.createElement('name')
             nodecontent.appendChild(nodename)
             nodetext = doc.createTextNode(f.fullpath.split('/')[-1])
-            # print "FILE: %s" % f.fullpath.split('/')[-1]
             nodename.appendChild(nodetext)
         root.appendChild(elem)
-
-    # print(doc.toprettyxml())
-    # print "End of xml_data"
     return HttpResponse(doc.toprettyxml(), mimetype="application/xhtml+xml")
-
-
-# def xml_test(request): 
-#     doc = Document()
-#     root = doc.createElement('root')
-#     doc.appendChild(root)         
-#     # print lines
-#     def makenode(path):
-#         # "Return a document node contains a directory tree for the path."
-#         node = doc.createElement('item')
-#         node.setAttribute('id', path)
-#         node.setAttribute('rel', 'folder')
-#         nodecontent = doc.createElement('content')
-#         node.appendChild(nodecontent)
-#         nodename = doc.createElement('name')
-#         nodecontent.appendChild(nodename)
-#         nodetext = doc.createTextNode(path.split('/')[-1])
-#         nodename.appendChild(nodetext)
-#         for f in os.listdir(path):
-#             fullname = os.path.join(path, f)
-#             if os.path.isdir(fullname):
-#                 elem = makenode(fullname)
-#             # else:
-#             #     elem = doc.createElement('item')
-#             #     elem.setAttribute('parent_id', path)
-#             #     elem.setAttribute('id', fullname)
-#             #     elem.setAttribute('rel', 'file')
-#             #     nodecontent = doc.createElement('content')
-#             #     elem.appendChild(nodecontent)
-#             #     nodename = doc.createElement('name')
-#             #     nodecontent.appendChild(nodename)
-#             #     nodetext = doc.createTextNode(f)
-#             #     nodename.appendChild(nodetext)
-#                 node.appendChild(elem) #if want, backup after
-#         return node
-#     root.appendChild(makenode('/home/russel/Downloads'))
-#     print(doc)
-#     return HttpResponse(doc.toprettyxml(), mimetype="application/xhtml+xml")
 
 
 # Get all child elements for node with path 
@@ -235,6 +197,7 @@ def post(request):
         id = request.POST['id']
         print id
         p = RestoreActions(version_store_id=id, dt_created=datetime.datetime.now())
+        # print datetime.datetime.now()
         p.save()
     # print request.session['idn']
         
@@ -277,7 +240,7 @@ def show_child(request):
     for item in items:
         print item.id
         print item.dt_created
-        elements = '<li id="'+ str(item.id) + '" class="ui-widget-content">' +str(item.dt_created) + '</li>'
+        elements += '<li id="'+ str(item.id) + '" class="ui-widget-content">' +str(item.dt_created) + '</li>'
         print "ELements: %s" % elements
 
     # elements = '''<li class="ui-widget-content">2018-01-30 14:28:22+00:00</li>'''
