@@ -77,8 +77,7 @@ def tree(request):
         print "Access approved for user"
         return render_to_response('tree.html', {}, context_instance=RequestContext(request))
     else:
-        message = '<a href="/login/">Login</a> first!'
-        return HttpResponse(message)
+        return redirect ('/login/')
 
 # Root path for all nodes
 
