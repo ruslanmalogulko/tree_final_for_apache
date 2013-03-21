@@ -28,46 +28,48 @@ from xml.dom.minidom import Document
 
 # tThe login page with LDAP auntefication
 def login(request):
-    global urls
-    urls = []
-    errors = []
-    login = ''
-    password = ''
-    username = ''
-    request.session.clear()
-    server = 'ldap://172.22.64.41:389' #AD server
-    request.session.set_expiry(0)
-    base_dn='ou=Technical,dc=nc,dc=local'
+    if 'user' in request.session:
+        return redirect ('/fcp_vms/tree/')
+    else:
+        global urls
+        urls = []
+        errors = []
+        login = ''
+        password = ''
+        username = ''
+        request.session.clear()
+        server = 'ldap://172.22.64.41:389' #AD server
+        request.session.set_expiry(0)
+        base_dn='ou=Technical,dc=nc,dc=local'
 
-    if 'login' in request.POST:
-        user = request.POST['login']
-        username = r"nc.local\%s" % user
-        if not user:
-            errors.append('It seems to be no login was entered')
-    if 'password' in request.POST:
-        password = request.POST['password']
-        if not password:
-            errors.append('It seems to be no password was entered')
+        if 'login' in request.POST:
+            user = request.POST['login']
+            username = r"nc.local\%s" % user
+            if not user:
+                errors.append('It seems to be no login was entered')
+        if 'password' in request.POST:
+            password = request.POST['password']
+            if not password:
+                errors.append('It seems to be no password was entered')
 
-    if len(errors) == 0 and 'login' in request.POST and 'password' in request.POST:    
-        l = ldap.initialize(server)
-        l.protocol_version = 3
-        try :
-            l.simple_bind_s(username,password)
-            searchFilter = "cn=*"
-            retrieveAttributes = ['cn']
-            results = l.search_s(base_dn,ldap.SCOPE_SUBTREE,searchFilter, retrieveAttributes)
-            errors.append("Access granded")
-            request.session['user'] = user
-            print request.session.values()
-            print urls
-            return redirect('/tree')
-        except ldap.LDAPError:
-            print ldap.LDAPError
-            errors.append("Permission denied by Active Directory")
-
-    return render_to_response('login.html',
-        {'errors': errors})
+        if len(errors) == 0 and 'login' in request.POST and 'password' in request.POST:    
+            l = ldap.initialize(server)
+            l.protocol_version = 3
+            try :
+                l.simple_bind_s(username,password)
+                searchFilter = "cn=*"
+                retrieveAttributes = ['cn']
+                results = l.search_s(base_dn,ldap.SCOPE_SUBTREE,searchFilter, retrieveAttributes)
+                errors.append("Access granded")
+                request.session['user'] = user
+                print request.session.values()
+                print urls
+                return redirect('/fcp_vms/tree/')
+            except ldap.LDAPError:
+                print ldap.LDAPError
+                errors.append("Permission denied by Active Directory")
+    
+        return render_to_response('login.html',{'errors': errors})
 
 
 # The main function for our tree. Render main page
@@ -77,7 +79,7 @@ def tree(request):
         print "Access approved for user"
         return render_to_response('tree.html', {}, context_instance=RequestContext(request))
     else:
-        return redirect ('/login/')
+        return redirect ('/fcp_vms/login/')
 
 # Root path for all nodes
 
@@ -91,7 +93,7 @@ def xml_data(request):
         if 'id' in request.POST:
             if request.POST['id'] == "0":
                 print "POST id: %s" % request.POST['id']
-                root_path = TreeStore.objects.filter(level=1)
+                root_path = TreeStore.objects.filter(level=3)
                 child_list = root_path
             else:
                 print 'there is post for xml_data'

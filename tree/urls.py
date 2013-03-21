@@ -6,6 +6,7 @@ from views import show_child, post, send_zip, send_file, upload_file, xml_data, 
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+	(r'^$', login),
 	(r'login/$', login),
 	(r'tree/$', tree),
 	(r'xml/$', xml_data),

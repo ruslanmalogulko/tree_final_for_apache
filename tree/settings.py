@@ -13,10 +13,10 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'test_fcp_vms',                      # Or path to database file if using sqlite3.
-        'USER': 'russel',                      # Not used with sqlite3.
-        'PASSWORD': 'russel',                  # Not used with sqlite3.
-        'HOST': '172.22.64.4',                      # Set to empty string for localhost. Not used with sqlite3.
+        'NAME': 'fcp_vms',                      # Or path to database file if using sqlite3.
+        'USER': 'fcp_vms',                      # Not used with sqlite3.
+        'PASSWORD': 'Impo$$iblefcp_vms',                  # Not used with sqlite3.
+        'HOST': '172.22.64.3',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
@@ -57,11 +57,13 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = ''
+STATIC_ROOT = '/fcp_vms/'
+# STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+STATIC_URL = '/fcp_vms/static/'
+# STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (

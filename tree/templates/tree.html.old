@@ -20,9 +20,9 @@
         </script>
         <style type="text/css">
          /*.jstree li > a > .jstree-icon {  display:none !important; } */
-	#treeViewDiv {height:600px; width:45%; overflow:auto; position: absolute; border-radius: 10px; left: 20px; border: 10px solid #ffffee;}
-         #item {height:620px;width:45%;overflow: auto; background: #ffffee;}
-/*         #header {text-align: center}*/
+         #treeViewDiv {height:600px; width:45%; overflow:auto; position: absolute; border-radius: 10px;}
+         #item {height:600px;width:45%; overflow: auto; background: #ffffee; }
+         #header {text-align: center}
          #item {float:right; border-radius: 10px; position:absolute; right:20px;}
 /*Selectable items for dialog window*/
         #feedback { font-size: 1.0em; }
@@ -37,37 +37,10 @@
         #selectable1 { list-style-type: none; margin: 0; padding: 0; width: 100%; }
         #selectable1 li { margin: 3px; padding: 0.4em; font-size: 0.8em; height: 12px; }
 
-        #button1 {float:right; position:absolute; top:698px; right: 20px; width:45%;}
+        #button1 {float:right; position:absolute; top:630px; right: 20px; width:45%;}
 
         #dialog-confirm {height:600px; width:500px;}
-	.header
-	{
-		background: #ffffff url({{ STATIC_URL }}header.jpg) no-repeat left top;
-		margin-right:00px;
-		background-repeat-x: no-repeat;
-		background-repeat-y: no-repeat;
-		background-attachment: initial;
-			background-position-x: 50%;
-		background-position-y: 0%;
-		background-origin: initial;
-		background-clip: initial;
-		height:82px;
-		position:relative;
-                z-index:10;
-		min-weight: 900px;
-	}
-	text1,table,h3
-	{
-		font-family: Verdana, Arial, Helvetica;
-		color: #000000;
-	}
-	h3
-	{
-        	font-size: 16px;
-		font-weight: bold;
-		text-align: center;
-	}
-	</style>
+        </style>
         
         <script>
             
@@ -79,8 +52,6 @@
 		button1 = $('#button1');
 		button1.attr('disabled','disabled');
 		button1.addClass('ui-state-disabled');
-    document.getElementById('button1').onclick = function() {$('#dialog-ok').dialog();}
-
                     $("#treeViewDiv").jstree({ 
                         "xml_data" : {
                             ajax : {
@@ -155,10 +126,9 @@
                     })
 // Function for clicking on node
                     .bind("select_node.jstree", function (event, data) {
-                        button1 = $('#button1');
-			                  button1.addClass('ui-state-disabled');
-			                  button1.attr('disabled', 'disabled'); 
-
+                        a = $('#button1');
+			a.addClass('ui-state-disabled');
+			a.attr('disabled', 'disabled');  
 			if (data.rslt.obj.attr("rel") ===  "file") {
                             $.ajax({ 
                                 type : "POST",
@@ -217,9 +187,9 @@
                 $( ".ui-selected", this ).each(function() {
                   var index = $( "#selectable1 li" ).index( this );
                   result.append( " #" + ( index + 1 ) );
-		            button1 = $('#button1');
-		            button1.removeClass('ui-state-disabled');
-		            button1.removeAttr('disabled');		
+		a = $('#button1');
+		a.removeClass('ui-state-disabled');
+		a.removeAttr('disabled');		
                 });
               }
             });
@@ -234,10 +204,7 @@
     <body>
 
 <!-- Its main header with changed text by Javascript (just for fun). Replaced text doesn't cached by browsers -->
-<div class="header">
-<h3><p style=" color: #FFFFFF ">Телеканал "Новый Канал":<br><br>Broadcast Center Media Asset Management</p></h3>
-</div>  
-	<br>
+        <div id="header"><h3>HEADER INSERT HERE</h3></div>
         <div id= "backups"></div>
                   
         <!-- <img src="{{ STATIC_URL }}drive.png" alt="The peaks of High Tatras" width="96" height="72" /> -->
@@ -273,9 +240,7 @@
            <p id="feedback">
             <span>You've selected:</span> <span id="select-result">none</span>.
         </p>
-        <div id="dialog-ok" title="OK!" style="display:none">
-            <p>Item'll be restored in 30 seconds!</p>
-        </div>
+         
         <ol id="selectable" position="hide">
             <!-- <div id="ol-insertion">
 

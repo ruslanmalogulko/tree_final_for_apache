@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Enter your account info:</title>
+    <meta charset="utf-8" />
+    <title>jQuery UI Button - Default functionality</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="/resources/demos/external/jquery.bgiframe-2.1.2.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script>
+    $(function() {
+        $( "input[type=submit], a, button" )
+            .button()
+            .click(function( event ) {
+                // event.preventDefault();
+            });
+    });
+    // for tooltips
+    $(function() {
+        $( document ).tooltip();
+    });
+
+    </script>
+
+    <style>
+        /*for tooltips*/
+        label {
+            display: inline-block;
+            width: 5em;
+            font-size: 14pt;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            color: white;
+            }
+        
+    </style>
+
+    
+
+    
+    <script>
+    $(function() {
+        $( "#dialog" ).dialog();
+    });
+    </script>
+
+
+
+</head>
+<body align=center style="background-color:black;">
+
+
+    <form action="" method="post" style="position:fixed; top:500px; left:40%">
+    	<table align=center>
+	    	<tr>
+	        	<!-- <td>Login:</td>
+	        	<td><input type="text" name="login"></td>  -->
+                <td><label for="login">Login:</label><input id="login" name="login" type="text" title="Please enter your login, such as in Active Directory account" /></td>
+	        </tr>
+	        <tr>
+	        	<!-- <td>Password:</td>
+	        	<td><input type="password" name="password"></td> -->
+                <td><label for="password" >Password:</label><input id="password" type="password" name="password"  title="Please enter your password for Active Directory account" /></td>
+	    	</tr>
+	        <tr>
+	        	<td colspan="2" align=center><input id="submit" type="submit" value="Login"/></td>
+	    	</tr>
+    	</table>
+    </form>
+
+    {% if errors %}
+       	<div id="dialog" title="Hi there!">
+    		<table>
+            {% for error in errors %}
+            <tr><td>{{ error }}</td></tr>
+            {% endfor %}
+        </table>       
+        </div>
+    {% endif %}
+
+    
+</body>
+</html>

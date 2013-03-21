@@ -1,83 +1,88 @@
 <html>
 <head>
-    <title>Enter your account info:</title>
-    <meta charset="utf-8" />
-    <title>jQuery UI Button - Default functionality</title>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
-    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-    <script src="/resources/demos/external/jquery.bgiframe-2.1.2.js"></script>
-    <link rel="stylesheet" href="/resources/demos/style.css" />
-    <script>
-    $(function() {
-        $( "input[type=submit], a, button" )
-            .button()
-            .click(function( event ) {
-                // event.preventDefault();
-            });
-    });
-    // for tooltips
-    $(function() {
-        $( document ).tooltip();
-    });
-
-    </script>
-
-    <style>
-        /*for tooltips*/
-        label {
-            display: inline-block;
-            width: 5em;
-            font-size: 14pt;
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            color: white;
-            }
-        
-    </style>
-
-    
-
-    
-    <script>
-    $(function() {
-        $( "#dialog" ).dialog();
-    });
-    </script>
-
-
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FCP VMS</title>
+<link href="/fcp_vms/static/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+body {
+        background-image: url('/fcp_vms/static/header.jpg');
+        background-repeat:no-repeat;
+        background-position:center top;
+        margin-left: 0px;
+        margin-top: 0px;
+}
+   text1,h3,input {
+    font-size: 10px;
+    font-family: Verdana,Arial,Helvetica;
+    color: #000000;
+   }
+   select, textarea, input[type="text"], input[type="password"]
+   {
+        height: 30px;
+   }
+}
+.style1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #2d9c0f;
+}
+ .style2 {
+        color: #2d9c0f;
+        font-size: 24px;
+}
+ .style3 {font-family: Arial, Helvetica, sans-serif; color: #2d9c0f font-size: 22px; }
+ .style4 {font-family: Arial, Helvetica, sans-serif; color: #2d9c0f; font-size: 20px; }
+ </style>
 </head>
-<body align=center style="background-color:black;">
-
-
-    <form action="" method="post" style="position:fixed; top:500px; left:40%">
-    	<table align=center>
-	    	<tr>
-	        	<!-- <td>Login:</td>
-	        	<td><input type="text" name="login"></td>  -->
-                <td><label for="login">Login:</label><input id="login" name="login" type="text" title="Please enter your login, such as in Active Directory account" /></td>
-	        </tr>
-	        <tr>
-	        	<!-- <td>Password:</td>
-	        	<td><input type="password" name="password"></td> -->
-                <td><label for="password" >Password:</label><input id="password" type="password" name="password"  title="Please enter your password for Active Directory account" /></td>
-	    	</tr>
-	        <tr>
-	        	<td colspan="2" align=center><input id="submit" type="submit" value="Login"/></td>
-	    	</tr>
-    	</table>
-    </form>
-
+<body>
+<table valign="top" align="center" class="bordered" cellspacing="0" cellpadding="0" width="100%" height="100%">
+<tbody><td>
+<br>
+<h4 align="center" class="style1 style2">Телеканал "Новый Канал"</h4>
+<h4 align="center" class="style4">FinalCut Project Version Managment System</h4>
+<p align="center" class="style3">&nbsp;</p>
+<p></p>
+<p></p>
+<table valign="center" align="center" class="bordered" cellspacing="0" cellpadding="0" width="160px">
+<form action="" method="post">
+      <tr>
+		<td>Имя:</td>
+		<td><input id="login" name="login" class="input-big" type="text" size="30" maxlength="50" autofocus/></td>
+                <td></td>
+      </tr>
+      <tr>
+		<td>Пароль:</td>
+		<td><input id="password" type="password" name="password" class="input-big" size="30" maxlength="50" /></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="submit" class="btn" value="Авторизироваться" /></td>
+		<td wight="100px"></td>
+      </tr>
+          <tr>
+            <td></td>
+            <td colspan="2" align="center">&nbsp;</td>
+            </tr>
+          <tr>
+        <td></td>
+        <td colspan="2" align="center">
+        <p></p>
+        <h6><p style="color: #999999"> Для авторизации необходимы ваши учетные данные</h6></p>  </td>
+        </tr>
+</table>
+</form>
     {% if errors %}
-       	<div id="dialog" title="Hi there!">
-    		<table>
+        <div id="dialog" title="Hi there!">
+                <table>
             {% for error in errors %}
             <tr><td>{{ error }}</td></tr>
             {% endfor %}
-        </table>       
+
+        </table>
         </div>
     {% endif %}
-
-    
+</table>
+</td>
+</tbody>
 </body>
 </html>
